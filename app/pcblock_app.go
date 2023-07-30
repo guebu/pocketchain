@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"pocketchain/pcchain"
-	"pocketchain/pcwallet"
+	"github.com/guebu/pocketchain/pcchain"
+	"github.com/guebu/pocketchain/pcwallet"
 )
 
 func main() {

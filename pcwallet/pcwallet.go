@@ -7,8 +7,8 @@ import (
 	"crypto/sha256"
 	"fmt"
 	"github.com/btcsuite/btcutil/base58"
+	"github.com/guebu/pocketchain/pctrx"
 	"golang.org/x/crypto/ripemd160"
-	"pocketchain/pctrx"
 )
 
 type PCWallet struct {
@@ -99,4 +99,3 @@ func (pcw *PCWallet) GetTransaction() *pctrx.PCWalletTransaction {
 	return pcw.walletTrx
 }
 */
-
